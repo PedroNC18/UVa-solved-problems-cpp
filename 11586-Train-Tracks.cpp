@@ -18,7 +18,7 @@ int main(void){
 			if(s[i]=='M') male++;
 			else if(s[i]=='F') female++;
 		}
-		if(male==female) printf("LOOP\n");
+		if(male==female && (male+female>2)) printf("LOOP\n");
 		else printf("NO LOOP\n");
 	}
 	return 0;
