@@ -32,7 +32,7 @@ int main(void){
 					bestMark.clear();
 					bestMark = mark;
 					bestCompliance = np;
-					bestValue = value;
+					bestValue = value; 
 					key=false;
 				}
 			}
