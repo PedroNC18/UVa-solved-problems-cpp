@@ -37,3 +37,4 @@ int main(void){
 		else printf("failure on day %d\n", day);
 	}
 }
+ 
