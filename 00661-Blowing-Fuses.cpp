@@ -37,7 +37,7 @@ int main(void){
 		printf("Sequence %d\n", ++casos);
 		if(key){
 			printf("Fuse was blown.\n");
-		}
+		} 
 		else{
 			printf("Fuse was not blown.\n");
 			printf("Maximal power consumption was %d amperes.\n", maximo);
