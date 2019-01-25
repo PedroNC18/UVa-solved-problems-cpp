@@ -38,7 +38,7 @@ void BORROW(string title){
 		} 
 	}
 	taken.push_back(aux);
-	books.erase(books.begin()+it);
+	books.erase(books.begin()+it); 
 }
 
 void RETURN(string title){
